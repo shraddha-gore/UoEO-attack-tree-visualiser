@@ -1,0 +1,15 @@
+<node name="Pre-Digitalisation Threats">
+  <node name="System Issues">
+    <node name="POS System Failure" value="8000"/>
+    <node name="Manual Inventory Error" value="3500"/>
+  </node>
+  <node name="Network Vulnerabilities">
+    <node name="Unsecured WiFi" value="4000"/>
+    <node name="No Encryption on Emails" value="3000"/>
+  </node>
+  <node name="Physical &amp; Process Risks">
+    <node name="Unauthorised Staff Access" value="5000"/>
+    <node name="Lack of Audit Trails" value="3000"/>
+    <node name="Paper-based Record Loss" value="2500"/>
+  </node>
+</node>

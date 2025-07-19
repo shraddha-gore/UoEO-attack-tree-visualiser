@@ -1,0 +1,42 @@
+{
+  "name": "Cyber Threats Pre-Digitalisation",
+  "children": [
+    {
+      "name": "POS System Failure",
+      "value": 0.6
+    },
+    {
+      "name": "Unsecured Network",
+      "value": 0.7
+    },
+    {
+      "name": "Customer Data Exposure",
+      "value": 0.8
+    },
+    {
+      "name": "Insider Threats",
+      "children": [
+        {
+          "name": "Malicious Employee",
+          "value": 0.5
+        },
+        {
+          "name": "Negligent Staff",
+          "value": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Lack of Auditing",
+      "value": 0.65
+    },
+    {
+      "name": "Physical Theft",
+      "value": 0.55
+    },
+    {
+      "name": "No CCTV Monitoring",
+      "value": 0.45
+    }
+  ]
+}

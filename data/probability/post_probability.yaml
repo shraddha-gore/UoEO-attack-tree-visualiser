@@ -1,0 +1,22 @@
+name: Cyber Threats Post-Digitalisation
+children:
+  - name: Customer Account Compromise
+    value: 0.3
+  - name: Web Application Attacks
+    children:
+      - name: SQL Injection
+        value: 0.25
+      - name: Cross-Site Scripting
+        value: 0.2
+  - name: Denial of Service
+    children:
+      - name: DDoS Attack
+        value: 0.15
+      - name: Botnet Overload
+        value: 0.1
+  - name: Regulatory Compliance Failures
+    children:
+      - name: PCI DSS Violation
+        value: 0.35
+      - name: GDPR Breach
+        value: 0.4

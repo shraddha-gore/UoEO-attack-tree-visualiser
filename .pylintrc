@@ -1,0 +1,2 @@
+[MASTER]
+ignore=__pycache__,.pytest_cache,data,lint,screenshots,tests,tests_report,venv,videos

@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0 -- /home/shraddha/Desktop/attack-tree-analyser/venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/shraddha/Desktop/attack-tree-analyser
+collecting ... collected 11 items
+
+tests/test_core.py::test_validate_values_monetary_valid PASSED           [  9%]
+tests/test_core.py::test_validate_values_probability_valid PASSED        [ 18%]
+tests/test_core.py::test_validate_values_invalid_monetary PASSED         [ 27%]
+tests/test_core.py::test_validate_values_invalid_probability PASSED      [ 36%]
+tests/test_graph_utils.py::test_build_graph PASSED                       [ 45%]
+tests/test_graph_utils.py::test_propagate_probability_values PASSED      [ 54%]
+tests/test_graph_utils.py::test_propagate_monetary_values PASSED         [ 63%]
+tests/test_graph_utils.py::test_aggregate_probability PASSED             [ 72%]
+tests/test_graph_utils.py::test_aggregate_monetary PASSED                [ 81%]
+tests/test_io_handler.py::test_xml_to_dict_flat PASSED                   [ 90%]
+tests/test_io_handler.py::test_xml_to_dict_nested PASSED                 [100%]
+
+============================== 11 passed in 0.37s ==============================

@@ -1,0 +1,35 @@
+{
+  "name": "Business Disruption",
+  "children": [
+    {
+      "name": "Customer Account Compromise",
+      "value": 7500
+    },
+    {
+      "name": "Web Platform Vulnerabilities",
+      "children": [
+        {
+          "name": "SQL Injection",
+          "value": 3500
+        },
+        {
+          "name": "DDoS Attack",
+          "value": 4000
+        }
+      ]
+    },
+    {
+      "name": "Compliance Breaches",
+      "children": [
+        {
+          "name": "PCI DSS Violation",
+          "value": 9000
+        },
+        {
+          "name": "GDPR Breach",
+          "value": 12000
+        }
+      ]
+    }
+  ]
+}

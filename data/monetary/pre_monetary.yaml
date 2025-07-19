@@ -1,0 +1,24 @@
+name: Pre-Digitalisation Threats
+children:
+  - name: System Issues
+    children:
+      - name: POS System Failure
+        value: 8000
+      - name: Manual Inventory Error
+        value: 3500
+
+  - name: Network Vulnerabilities
+    children:
+      - name: Unsecured WiFi
+        value: 4000
+      - name: No Encryption on Emails
+        value: 3000
+
+  - name: Physical & Process Risks
+    children:
+      - name: Unauthorised Staff Access
+        value: 5000
+      - name: Lack of Audit Trails
+        value: 3000
+      - name: Paper-based Record Loss
+        value: 2500

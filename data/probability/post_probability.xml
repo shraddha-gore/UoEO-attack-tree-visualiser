@@ -1,0 +1,18 @@
+<node name="Cyber Threats Post-Digitalisation">
+    <node name="Customer Account Compromise" value="0.3"/>
+    
+    <node name="Web Application Attacks">
+        <node name="SQL Injection" value="0.25"/>
+        <node name="Cross-Site Scripting" value="0.2"/>
+    </node>
+    
+    <node name="Denial of Service">
+        <node name="DDoS Attack" value="0.15"/>
+        <node name="Botnet Overload" value="0.1"/>
+    </node>
+    
+    <node name="Regulatory Compliance Failures">
+        <node name="PCI DSS Violation" value="0.35"/>
+        <node name="GDPR Breach" value="0.4"/>
+    </node>
+</node>
